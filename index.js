@@ -13,7 +13,6 @@ const tutorials = [
 
 const titleCased = () => {
   return tutorials.map(function (tutorial) {
-    
     const words = tutorial.split(" ");
 
     const titleCaseWords = words.map(function (word) {
